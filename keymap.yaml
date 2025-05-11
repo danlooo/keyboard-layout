@@ -72,9 +72,8 @@ layers:
         "Super",
       ]
 combos:
-  - { tk: ["U", "I"], k: "paste" }
-  - { tk: ["J", "K"], k: "copy" }
-  - { tk: ["M", ", ;"], k: "cut" }
-  - { tk: ["I", "O"], k: "tog wins" }
-  - { tk: ["K", "L"], k: "tog tab" }
-  - { tk: [", ;", ". :"], k: "tog wspace" }
+  - { tk: ["U", "I"], k: "tog wins" }
+  - { tk: ["J", "K"], k: "tog tab" }
+  - { tk: ["M", ", ;"], k: "tog wspace" }
+  - { tk: ["W", "E"], k: "mouse prev" }
+  - { tk: ["X", "C"], k: "mouse next" }
