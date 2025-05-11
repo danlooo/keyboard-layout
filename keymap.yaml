@@ -1,0 +1,80 @@
+# parsed and then tweaked from https://github.com/LOWPROKB/zmk-config-zen-2/blob/main/config/corneish_zen.keymap
+layout:
+  zmk_keyboard: corneish_zen
+  layout_name: foostan_corne_6col_layout
+layers:
+  default:
+    - ["] [", "Q", "W", "E", "R", "T", "Z", "U", "I", "O", "P", "Ü"]
+    - [") (", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Ö", "Ä"]
+    - ['` "', "Y", "X", "C", "V", "B", "N", "M", ", ;", ". :", "! - ", "? ß"]
+    - ["Alt Esc", "nav Tab", "sym Bksp", "Shift Space", "Ctrl Enter", "Super"]
+  symbols:
+    - ["^", "%", "#", "/", "<", ">", ".", "7", "8", "9", "-", "/"]
+    - ["~", "&", "€", "|", "(", ")", ",", "4", "5", "6", "+", "*"]
+    - ["_", "@", "$", "\\", "{", "}", "0", "1", "2", "3", "=", null]
+    - [
+        "Alt Esc",
+        "nav Tab",
+        { type: held },
+        "Shift Space",
+        "Ctrl Enter",
+        "Super",
+      ]
+  control:
+    - [
+        "F9",
+        "F10",
+        "F11",
+        "F12",
+        "Vol+",
+        ">>",
+        "Home",
+        "PGdown",
+        "PGup",
+        "End",
+        "",
+        "Del",
+      ]
+    - [
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "Mute",
+        ">||",
+        "Left",
+        "Down",
+        "Up",
+        "Right",
+        "",
+        "Ins",
+      ]
+    - [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "Vol-",
+        "<<",
+        "Ctrl+Left",
+        "Mouse back",
+        "Mouse next",
+        "Ctrl+Right",
+        "",
+        "Print",
+      ]
+    - [
+        "Alt Esc",
+        { type: held },
+        "sym Bksp",
+        "Shift Space",
+        "Ctrl Enter",
+        "Super",
+      ]
+combos:
+  - { tk: ["U", "I"], k: "paste" }
+  - { tk: ["J", "K"], k: "copy" }
+  - { tk: ["M", ", ;"], k: "cut" }
+  - { tk: ["I", "O"], k: "tog wins" }
+  - { tk: ["K", "L"], k: "tog tab" }
+  - { tk: [", ;", ". :"], k: "tog wspace" }
