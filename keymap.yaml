@@ -7,20 +7,20 @@ layers:
     - ["] [", "Q", "W", "E", "R", "T", "Z", "U", "I", "O", "P", "Ü"]
     - [") (", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Ö", "Ä"]
     - ['` "', "Y", "X", "C", "V", "B", "N", "M", ", ;", ". :", "! - ", "? ß"]
-    - ["Alt Esc", "nav Tab", "sym Bksp", "Shift Space", "Ctrl Enter", "Super"]
+    - ["nav Esc", "sym Tab", "Shift Bksp", "Ctrl Space", "Alt Enter", "Super"]
   symbols:
     - ["^", "%", "#", "/", "<", ">", ".", "7", "8", "9", "-", "/"]
     - ["~", "&", "€", "|", "(", ")", ",", "4", "5", "6", "+", "*"]
     - ["_", "@", "$", "\\", "{", "}", "0", "1", "2", "3", "=", null]
     - [
-        "Alt Esc",
-        "nav Tab",
+        "nav Esc",
         { type: held },
-        "Shift Space",
-        "Ctrl Enter",
+        "Shift Bksp",
+        "Ctrl Space",
+        "Alt Enter",
         "Super",
       ]
-  control:
+  nav:
     - [
         "F9",
         "F10",
@@ -64,11 +64,11 @@ layers:
         "Print",
       ]
     - [
-        "Alt Esc",
         { type: held },
-        "sym Bksp",
-        "Shift Space",
-        "Ctrl Enter",
+        "sym Tab",
+        "Shift Bksp",
+        "Ctrl Space",
+        "Alt Enter",
         "Super",
       ]
 combos:
