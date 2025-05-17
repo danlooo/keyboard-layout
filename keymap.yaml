@@ -1,16 +1,76 @@
 # parsed and then tweaked from https://github.com/LOWPROKB/zmk-config-zen-2/blob/main/config/corneish_zen.keymap
 layout:
-  zmk_keyboard: corneish_zen
-  layout_name: foostan_corne_6col_layout
+  zmk_keyboard: crkbd/rev4
+  layout_name: LAYOUT_split_3x6_3_ex2
 layers:
   default:
-    - ["] [", "Q", "W", "E", "R", "T", "Z", "U", "I", "O", "P", "Ü"]
-    - [") (", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Ö", "Ä"]
+    - [
+        "] [",
+        "Q",
+        "W",
+        "E",
+        "R",
+        "T",
+        "Mouse 5",
+        "Wheel UP",
+        "Z",
+        "U",
+        "I",
+        "O",
+        "P",
+        "Ü",
+      ]
+    - [
+        ") (",
+        "A",
+        "S",
+        "D",
+        "F",
+        "G",
+        "Mouse 4",
+        "Wheel DWN",
+        "H",
+        "J",
+        "K",
+        "L",
+        "Ö",
+        "Ä",
+      ]
     - ['` "', "Y", "X", "C", "V", "B", "N", "M", ", ;", ". :", "! - ", "? ß"]
     - ["nav Esc", "sym Tab", "Shift Bksp", "Ctrl Space", "Alt Enter", "Super"]
   symbols:
-    - ["^", "%", "#", "/", "<", ">", ".", "7", "8", "9", "-", "/"]
-    - ["~", "&", "€", "|", "(", ")", ",", "4", "5", "6", "+", "*"]
+    - [
+        "^",
+        "%",
+        "#",
+        "/",
+        "<",
+        ">",
+        "Mouse 5",
+        "Wheel UP",
+        ".",
+        "7",
+        "8",
+        "9",
+        "-",
+        "/",
+      ]
+    - [
+        "~",
+        "&",
+        "€",
+        "|",
+        "(",
+        ")",
+        "Mouse 4",
+        "Wheel DWN",
+        ",",
+        "4",
+        "5",
+        "6",
+        "+",
+        "*",
+      ]
     - ["_", "@", "$", "\\", "{", "}", "0", "1", "2", "3", "=", null]
     - [
         "nav Esc",
@@ -26,8 +86,10 @@ layers:
         "F10",
         "F11",
         "F12",
+        "",
         "Vol+",
-        ">>",
+        "Mouse 5",
+        "Wheel UP",
         "Home",
         "PGdown",
         "PGup",
@@ -40,8 +102,10 @@ layers:
         "F6",
         "F7",
         "F8",
+        "",
         "Mute",
-        ">||",
+        "Mouse 4",
+        "Wheel DWN",
         "Left",
         "Down",
         "Up",
@@ -54,8 +118,8 @@ layers:
         "F2",
         "F3",
         "F4",
+        "",
         "Vol-",
-        "<<",
         "Ctrl+Left",
         "Mouse back",
         "Mouse next",
@@ -75,5 +139,3 @@ combos:
   - { tk: ["U", "I"], k: "tog wins" }
   - { tk: ["J", "K"], k: "tog tab" }
   - { tk: ["M", ", ;"], k: "tog wspace" }
-  - { tk: ["W", "E"], k: "mouse prev" }
-  - { tk: ["X", "C"], k: "mouse next" }
