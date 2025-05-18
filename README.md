@@ -32,3 +32,12 @@ Features:
 | tab        | Esc       | Tab           | Backspace   | Space | Enter    | Super |
 | hold       | mom. nav  | mom. symbols  | Shift       | Ctrl  | Alt      | Super |
 | double tab | perm. nav | perm. symbols | remove word | ---   | Launcher | Super |
+
+# Home row combos
+
+- home row mods requires typing at a constant speed. In addition, holding keys takes time. Instead, home row combos are used, similar to strokes in stenography.
+
+| left hand key | right hand key | action          |
+| ------------- | -------------- | --------------- |
+| F             | J              | pipe `\| >`     |
+| F             | K              | lambda `x ->  ` |

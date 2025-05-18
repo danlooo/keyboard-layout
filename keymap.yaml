@@ -11,7 +11,7 @@ layers:
         "E",
         "R",
         "T",
-        "Mouse 5",
+        "",
         "Wheel UP",
         "Z",
         "U",
@@ -27,7 +27,7 @@ layers:
         "D",
         "F",
         "G",
-        "Mouse 4",
+        "",
         "Wheel DWN",
         "H",
         "J",
@@ -36,19 +36,19 @@ layers:
         "Ö",
         "Ä",
       ]
-    - ['` "', "Y", "X", "C", "V", "B", "N", "M", ", ;", ". :", "! - ", "? ß"]
+    - ['` "', "Y", "X", "C", "V", "B", "N", "M", ", ;", ". :", "! _ ", "? ß"]
     - ["nav Esc", "sym Tab", "Shift Bksp", "Ctrl Space", "Alt Enter", "Super"]
   symbols:
     - [
         "^",
         "%",
-        "#",
+        "€",
         "/",
-        "<",
-        ">",
-        "Mouse 5",
+        "[",
+        "]",
+        "",
         "Wheel UP",
-        ".",
+        "=",
         "7",
         "8",
         "9",
@@ -57,21 +57,21 @@ layers:
       ]
     - [
         "~",
-        "&",
-        "€",
+        "@",
+        "#",
         "|",
         "(",
         ")",
-        "Mouse 4",
+        "",
         "Wheel DWN",
-        ",",
+        ".",
         "4",
         "5",
         "6",
         "+",
         "*",
       ]
-    - ["_", "@", "$", "\\", "{", "}", "0", "1", "2", "3", "=", null]
+    - ["_", "&", "$", "\\", "{", "}", "0", "1", "2", "3", "<", ">"]
     - [
         "nav Esc",
         { type: held },
@@ -88,7 +88,7 @@ layers:
         "F12",
         "",
         "Vol+",
-        "Mouse 5",
+        "",
         "Wheel UP",
         "Home",
         "PGdown",
@@ -104,7 +104,7 @@ layers:
         "F8",
         "",
         "Mute",
-        "Mouse 4",
+        "",
         "Wheel DWN",
         "Left",
         "Down",
@@ -136,6 +136,7 @@ layers:
         "Super",
       ]
 combos:
+  - { tk: ["Shift Bksp", "Ctrl Space"], k: "default layer" }
   - { tk: ["U", "I"], k: "tog wins" }
   - { tk: ["J", "K"], k: "tog tab" }
   - { tk: ["M", ", ;"], k: "tog wspace" }
